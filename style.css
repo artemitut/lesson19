@@ -95,3 +95,35 @@ and (max-width:1281px){
         left: 60px;
     }
 }
+@media screen 
+and (max-width:768px){
+    .message_label{
+        top: -65px;
+        left: 265px;
+        margin: 0;
+    }
+    .message{
+        width: 300px;
+        left: 70px;
+        top: 40px;
+    }
+    .email{
+        left: 85px;
+        top: 10px
+    }
+    .email_label{
+        left: 265px;
+        top: -25px;
+    }
+    .name{
+        left: 85px;
+    }
+    .name_label{
+        top: -35px;
+        left: 270px;
+    }
+    .submit{
+        top: 50px;
+        left: 195px;
+    }
+}
