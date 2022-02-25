@@ -191,3 +191,73 @@ and (max-width:415px){
         left: 115px;
     }
 }
+@media screen 
+and (max-width:377px){
+    .form{
+        height: 330px;
+    }
+    .message_label{
+        top: -3px;
+        left: 150px;
+        margin: 0;
+    }
+    .message{
+        width: 300px;
+        left: 25px;
+        top: 0px;
+    }
+    .email{
+        left: 20px;
+        top: -10px
+    }
+    .email_label{
+        left: 150px;
+        top: -2px;
+    }
+    .name{
+        left: -30px;
+    }
+    .name_label{
+        top: -45px;
+        left: 155px;
+    }
+    .submit{
+        top: 17px;
+        left: 80px;
+    }
+}
+@media screen 
+and (max-width:376px){
+    .form{
+        height: 330px;
+    }
+    .message_label{
+        top: -3px;
+        left: 150px;
+        margin: 0;
+    }
+    .message{
+        width: 300px;
+        left: 25px;
+        top: 0px;
+    }
+    .email{
+        left: 20px;
+        top: -10px
+    }
+    .email_label{
+        left: 150px;
+        top: -2px;
+    }
+    .name{
+        left: 15px;
+    }
+    .name_label{
+        top: -3px;
+        left: 155px;
+    }
+    .submit{
+        top: 17px;
+        left: 80px;
+    }
+}
