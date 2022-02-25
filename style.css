@@ -127,3 +127,67 @@ and (max-width:768px){
         left: 195px;
     }
 }
+@media screen 
+and (max-width:500px){
+    .message_label{
+        top: -65px;
+        left: 205px;
+        margin: 0;
+    }
+    .message{
+        width: 300px;
+        left: 10px;
+        top: 40px;
+    }
+    .email{
+        left: 25px;
+        top: 10px
+    }
+    .email_label{
+        left: 205px;
+        top: -25px;
+    }
+    .name{
+        left: 25px;
+    }
+    .name_label{
+        top: -65px;
+        left: 210px;
+    }
+    .submit{
+        top: 50px;
+        left: 135px;
+    }
+}
+@media screen 
+and (max-width:415px){
+    .message_label{
+        top: -65px;
+        left: 185px;
+        margin: 0;
+    }
+    .message{
+        width: 300px;
+        left: -10px;
+        top: 40px;
+    }
+    .email{
+        left: 05px;
+        top: 10px
+    }
+    .email_label{
+        left: 185px;
+        top: -25px;
+    }
+    .name{
+        left: 5px;
+    }
+    .name_label{
+        top: -45px;
+        left: 190px;
+    }
+    .submit{
+        top: 50px;
+        left: 115px;
+    }
+}
